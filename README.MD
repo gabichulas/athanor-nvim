@@ -27,9 +27,27 @@ return {
 }
 ```
 
-## Screenshots
+## Preview
 
-not yet :)
+<table align="center">
+  <tr>
+    <td align="center"><b>Umber</b></td>
+    <td align="center"><b>Vellum</b></td>
+  </tr>
+  <tr>
+    <!-- Adjust the width value to fit your preferences -->
+    <td><img src="img/umber.png" width="400" alt="Umber theme preview"/></td>
+    <td><img src="img/vellum.png" width="400" alt="Vellum theme preview"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Orpiment</b></td>
+    <td align="center"><b>Cinnabar</b></td>
+  </tr>
+  <tr>
+    <td><img src="img/orpiment.png" width="400" alt="Orpiment theme preview"/></td>
+    <td><img src="img/cinnabar.png" width="400" alt="Cinnabar theme preview"/></td>
+  </tr>
+</table>
 
 ## Credits
 
