@@ -34,10 +34,37 @@ local hl = function(group, opts)
 	vim.api.nvim_set_hl(0, group, opts)
 end
 
-hl("NeoTreeNormal", { bg = "#16120e" })
-hl("NeoTreeNormalNC", { bg = "#16120e" })
-hl("NeoTreeWinSeparator", { fg = "#3a3126", bg = "#16120e" })
-hl("WinSeparator", { fg = "#3a3126", bg = "#16120e" })
-hl("VertSplit", { fg = "#3a3126", bg = "#16120e" })
-hl("Keyword", { fg = "#d49a3a" })
-hl("Comment", { fg = "#8d7d65", italic = true })
+local bg = "#16120e"
+local border = "#3a3126"
+local fg = "#e3d6b8"
+local dim = "#8d7d65"
+local active = "#d49a3a"
+local blue = "#7f93a8"
+local red = "#d25f42"
+local orange = "#dd7357"
+local green = "#8f9a5a"
+
+hl("NeoTreeNormal", { bg = bg })
+hl("NeoTreeNormalNC", { bg = bg })
+hl("NeoTreeWinSeparator", { fg = border, bg = bg })
+hl("WinSeparator", { fg = border, bg = bg })
+hl("VertSplit", { fg = border, bg = bg })
+
+hl("@type", { fg = active })
+hl("@type.builtin", { fg = active })
+hl("@keyword", { fg = active })
+hl("@keyword.modifier", { fg = active })
+hl("@keyword.control", { fg = active })
+hl("@keyword.directive", { fg = red })
+
+hl("@function", { fg = blue })
+hl("@function.call", { fg = blue })
+hl("@function.macro", { fg = blue })
+
+hl("@number", { fg = orange })
+hl("@string", { fg = green })
+hl("@comment", { fg = dim, italic = true })
+
+hl("@variable", { fg = fg })
+hl("@variable.parameter", { fg = fg })
+hl("@property", { fg = fg })
