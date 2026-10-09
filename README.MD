@@ -4,10 +4,6 @@ A Neovim port of the original [Athanor](https://github.com/script-wizards/athano
 
 ![Athanor Palette](https://github.com/script-wizards/athanor/raw/main/docs/screenshots/palette.png)
 
-## Prerequisites
-
-This colorscheme relies on [mini.base16](https://github.com/echasnovski/mini.base16) to process the palettes.
-
 ## Installation
 
 Using [lazy.nvim](https://github.com/folke/lazy.nvim):
